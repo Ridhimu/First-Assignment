@@ -7,9 +7,8 @@
 	box-sizing:border-box;
 }
 
-.body{
-    font-family: "Azeret Mono"
-	
+body{
+    font-family: "Azeret Mono", monospace;
 }
 /* Banner Section*/
 
@@ -67,13 +66,16 @@
 	width: 208px;
 	height: 66px;
 	margin: 0px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 
 }
-.banner-btn button{
+.banner-btn a{
 	border: none;
 	width: 160px;
 	height: 24px;
-	margin: 21px 24px;
 	color: rgb(255, 255, 255);
 	font-family: Azeret Mono;
 	font-size: 15px;
@@ -81,6 +83,7 @@
 	line-height: 23px;
 	letter-spacing: 0%;
 	background-color: rgb(13, 19, 33);
+	text-decoration: none;
 }
 /* Why Devlopment section*/
 
@@ -200,6 +203,7 @@
 	box-sizing: border-box 1px;
 	border: 1px solid rgb(13, 19, 33);
 	opacity: 0.7;
+	cursor: pointer;
 }
 .why-1-img img{
 	margin-left: 112px;
@@ -412,4 +416,308 @@ margin: 100px auto;
 	height: 550px;
 	border-radius: 16px;
 	
+}
+
+/* target section*/
+.target-header{
+	position: static;
+	width: 852px;
+height: 115px;
+	margin: 50px auto;
+}
+.target-header h1{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.target-header span{
+	color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.target-row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	width: 1140px;
+    height: 480px;
+	margin: 0px auto;
+	
+	
+}
+/* card-1*/
+.target-card-1{
+position: static;
+width: 364px;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px auto;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.target-card-1 img{
+position: static;
+width: 56px;
+height: 56px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.target-card-1 h1{
+position: static;
+width: 56px;
+height: 56px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.target-card-1 span{
+	color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.target-card-1 button{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+/* card-2*/
+.target-card-2{
+	position: static;
+	width: 364px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px auto;
+	border-radius: 16px;
+	background: rgba(0, 76, 232, 0.05);
+	}
+	.target-card-2 img{
+	position: static;
+	width: 56px;
+	height: 56px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 24px 0px;
+	}
+	.target-card-2 h1{
+	position: static;
+	width: 56px;
+	height: 56px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 24px 0px;
+	}
+	.target-card-2 span{
+		color: rgb(13, 19, 33);
+	font-family: Azeret Mono;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0%;
+	text-align: left;
+	}
+	.target-card-2 button{
+	color: rgb(13, 19, 33);
+	font-family: Azeret Mono;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	letter-spacing: 0%;
+	text-align: left;
+	text-decoration-line: underline;
+	}
+
+	/* card-3*/
+.target-card-3{
+	position: static;
+	width: 364px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+		flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px auto;
+	border-radius: 16px;
+	background: rgba(255, 223, 0, 0.05);
+	}
+	.target-card-3 img{
+	position: static;
+	width: 56px;
+	height: 56px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 24px 0px;
+	}
+	.target-card-3 h1{
+	position: static;
+	width: 56px;
+	height: 56px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 24px 0px;
+	}
+	.target-card-3 span{
+		color: rgb(13, 19, 33);
+	font-family: Azeret Mono;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0%;
+	text-align: left;
+	}
+	.target-card-3 button{
+	color: rgb(13, 19, 33);
+	font-family: Azeret Mono;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	letter-spacing: 0%;
+	text-align: left;
+	text-decoration-line: underline;
+	}
+
+
+	/*  Support Style */
+
+.support-container{
+    width: 1140px;
+    height: 314px;
+    background-image: url('../img/handshake.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+	margin: 50px auto;
+    border-radius: 16px;
+    padding: 14px;
+}
+.support-content{
+    width: 1044px;
+    height: 186px;
+    margin: 0px auto;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.support-text{
+    width: 730px;
+    height: 104px;
+    margin: 0px auto;
+    color: #ffffff;
+    text-align: center;
+}
+.support-text h3{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 25px;
+}
+.support-text p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+.support-input{
+    width: 684px;
+    height: 58px;
+    margin: 0px auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.support-box input{
+    width: 548px;
+    height: 57px;
+    padding-left: 28px;
+    border-radius: 14px;
+}
+.support-box, placeholder{
+    font-size: 15px;
+}
+
+.support-button button{ 
+    border-radius: 10px;   
+    font-weight: 600;
+    line-height: 19px;
+    cursor: pointer;
+	width: 120px;
+    height: 58px;
+
+}
+
+
+/* Footer style */
+
+.footer-container{
+    margin: 50px auto;
+    background: rgba(13, 19, 33, 0.03);
+	width: 1440px;
+    height: 100px;
+    border-radius: 16px;
+    padding-top: 10px;
+}
+.footer-content{
+    margin: 0px auto;
+	width: 1140px;
+    height: 36px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-heading h4{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.icons a{
+    margin-right: 20px;
 }
